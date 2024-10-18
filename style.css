@@ -5,6 +5,11 @@
     /* filter: invert(100%) hue-rotate(180deg); */
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 nav,
 nav ul {
     display: flex;
@@ -41,6 +46,7 @@ nav li {
     transition: 1s;
     border-radius: 10px;
     z-index: 1;
+    border: white 1px solid;
 }
 
 .btnproduct {
@@ -731,14 +737,14 @@ textarea {
     font-size: 20px;
     margin-left: 50px;
     line-height: 60px;
-    color: #222F65;
+    color: gray;
 }
 
 .pagef0 h4 {
     margin-left: 100px;
     line-height: 60px;
     font-size: 20px;
-    color: #505F98;
+    color: gray;
 
 }
 
@@ -746,7 +752,7 @@ textarea {
     margin-left: 130px;
     line-height: 60px;
     font-size: 15px;
-    color: #505F98;
+    color: black;
 
 }
 
@@ -767,4 +773,11 @@ li .er4 {
     color: white;
     line-height: 25px;
 
+}
+
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
