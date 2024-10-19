@@ -5,16 +5,27 @@
 
 .dark-mode {
     background-color: black;
-    color: white;
+
 }
 
+.dark-mode .para {
+    color: white;
+}
+.dark-mode .image_footer{
+    background-color: rgb(81, 80, 80);
+}
+.dark-mode a{
+    color: white;
+}
+.dark-mode .para1 {
+    color: black;
+}
 nav,
 nav ul {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
 }
-
 p {
     line-height: 30px;
 }
