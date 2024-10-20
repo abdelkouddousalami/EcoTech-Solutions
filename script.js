@@ -8,3 +8,4 @@ function hideShow() {
 function test() {
     document.body.classList.toggle("dark-mode");
 }
+

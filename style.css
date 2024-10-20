@@ -132,13 +132,6 @@ a {
 
 }
 
-.btn:hover {
-    background: var(--clr);
-    letter-spacing: 0.25rem;
-    box-shadow: 0 0 35px var(--clr);
-    cursor: pointer;
-}
-
 .part2 {
     display: flex;
     justify-content: space-between;
